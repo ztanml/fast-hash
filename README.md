@@ -13,6 +13,7 @@ The fast-hash primarily computes 64-bit and 32-bit hash values. For 128-bit hash
    * Apache Giraph: https://giraph.apache.org/xref/org/apache/giraph/block_app/library/striping/StripingUtils.html.
    * The GNU Hurd Unix Kernel. See https://github.com/joshumax/hurd/blob/master/libdiskfs/node-cache.c.
    * Google SMHasher. See https://github.com/rurban/smhasher/blob/master/fasthash.cpp.
+   * The Grand Tour Game: https://www.amazon.com/gp/help/customer/display.html?_encoding=UTF8&nodeId=GUNPF35EQCSJFJY6
    * Considered one of the best general-purpose integer hash functions according to the paper "MELISSA E. O’NEILL, PCG: A Family of Simple Fast Space-Efficient Statistically Good Algorithms for Random Number Generation".
    * Used for prestigious ML research. See the paper "Xiatian Zhang, Wei Fan, Nan Du, Random Decision Hashing for Massive Data Learning, JMLR'15".
    * ArangoDB - the multi-purpose NoSQL DB. https://www.arangodb.org.
