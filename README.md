@@ -9,15 +9,17 @@ The fast-hash is a simple, robust, and efficient general-purpose hash function.
 The fast-hash primarily computes 64-bit and 32-bit hash values. For 128-bit hash functions, I recommend Google MurmurHash3 and SpookyHash. However, they can be an overkill for 64-bit hashing applications.
 
 ## Widely used in industry and academia:
-   * Apple iOS Kernel: https://opensource.apple.com/source/xnu/xnu-3789.21.4/iokit/Kernel/IOKitDebug.cpp.
+   * Apple iOS Kernel: https://opensource.apple.com/source/files/files-680.10.1/Library/Documentation/Acknowledgements.rtf, https://opensource.apple.com/source/xnu/xnu-3789.21.4/iokit/Kernel/IOKitDebug.cpp.
    * Apache Giraph: https://giraph.apache.org/xref/org/apache/giraph/block_app/library/striping/StripingUtils.html.
    * The GNU Hurd Unix Kernel. See https://github.com/joshumax/hurd/blob/master/libdiskfs/node-cache.c.
+   * libfabric: https://github.com/ofiwg/libfabric/blob/main/src/fasthash.c
+   * Learned Index Structures: An Evalution of their Performance in Key-Value Storage Solutions: https://wr.informatik.uni-hamburg.de/_media/research:theses:leonhard_reichenbach_learned_index_structures_an_evalution_of_their_performance_in_key_value_storage_solutions.pdf
    * Google SMHasher. See https://github.com/rurban/smhasher/blob/master/fasthash.cpp.
-   * The Grand Tour Game: https://www.amazon.com/gp/help/customer/display.html?_encoding=UTF8&nodeId=GUNPF35EQCSJFJY6
+   * The Grand Tour Game: https://www.amazon.com/gp/help/customer/display.html?_encoding=UTF8&nodeId=GUNPF35EQCSJFJY6 
    * Considered one of the best general-purpose integer hash functions according to the paper "MELISSA E. O’NEILL, PCG: A Family of Simple Fast Space-Efficient Statistically Good Algorithms for Random Number Generation".
    * Used for prestigious ML research. See the paper "Xiatian Zhang, Wei Fan, Nan Du, Random Decision Hashing for Massive Data Learning, JMLR'15".
-   * ArangoDB - the multi-purpose NoSQL DB. https://www.arangodb.org.
-   * Fast incremental JSON parser - https://github.com/bjouhier/i-json.
+   * ArangoDB - the multi-purpose NoSQL DB. https://fossies.org/linux/arangodb/LICENSES-OTHER-COMPONENTS.md.
+   * Fast incremental JSON parser - https://github.com/bjouhier/i-json/blob/master/src/fasthash.c.
    * jelly-hash - Low memory multithreaded hash table. https://github.com/noporpoise/jelly-hash.
    * probing - Linear probing hash tables in Go. https://github.com/kho/probing.
    * mrkcommon - Markiyan's library of "commonly used" functions. https://github.com/mkushnir/mrkcommon. 
