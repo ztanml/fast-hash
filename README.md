@@ -11,6 +11,7 @@ The fast-hash primarily computes 64-bit and 32-bit hash values. For 128-bit hash
 ## Widely used in industry and academia:
    * Apple iOS Kernel: https://opensource.apple.com/source/files/files-680.10.1/Library/Documentation/Acknowledgements.rtf, https://opensource.apple.com/source/xnu/xnu-3789.21.4/iokit/Kernel/IOKitDebug.cpp.
    * Apache Giraph: https://giraph.apache.org/xref/org/apache/giraph/block_app/library/striping/StripingUtils.html.
+   * Apache Impala: https://github.com/apache/impala/blob/master/LICENSE.txt
    * The GNU Hurd Unix Kernel. See https://github.com/joshumax/hurd/blob/master/libdiskfs/node-cache.c.
    * libfabric: https://github.com/ofiwg/libfabric/blob/main/src/fasthash.c
    * Learned Index Structures: An Evalution of their Performance in Key-Value Storage Solutions: https://wr.informatik.uni-hamburg.de/_media/research:theses:leonhard_reichenbach_learned_index_structures_an_evalution_of_their_performance_in_key_value_storage_solutions.pdf
