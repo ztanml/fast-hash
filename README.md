@@ -18,6 +18,7 @@ The fast-hash primarily computes 64-bit and 32-bit hash values. For 128-bit hash
    * Google SMHasher. See https://github.com/rurban/smhasher/blob/master/fasthash.cpp.
    * The Grand Tour Game: https://www.amazon.com/gp/help/customer/display.html?_encoding=UTF8&nodeId=GUNPF35EQCSJFJY6 
    * Considered one of the best general-purpose integer hash functions according to the paper "MELISSA E. O’NEILL, PCG: A Family of Simple Fast Space-Efficient Statistically Good Algorithms for Random Number Generation".
+   * Used in pmemkv, a local/embedded key-value datastore optimized for persistent memory: https://github.com/OrderLab/Arthas-eval-pmemkv/blob/master/src/fast_hash.h 
    * Used in ML research: "Xiatian Zhang, Wei Fan, Nan Du, Random Decision Hashing for Massive Data Learning, JMLR'15".
    * ArangoDB - the multi-purpose NoSQL DB. https://fossies.org/linux/arangodb/LICENSES-OTHER-COMPONENTS.md.
    * Fast incremental JSON parser - https://github.com/bjouhier/i-json/blob/master/src/fasthash.c.
